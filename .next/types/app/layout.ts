@@ -1,4 +1,4 @@
-// File: C:\dev\ubuntu\discoveri\app\layout.js
+// File: C:\dev\ubuntu\temp\discoveri\app\layout.js
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
