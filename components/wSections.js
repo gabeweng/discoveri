@@ -1,16 +1,25 @@
-import {Box, Breadcrumb,  BreadcrumbItem,  BreadcrumbLink, Image} from '@chakra-ui/react';
+import {Box, Breadcrumb,  BreadcrumbItem,  BreadcrumbLink, Image, Text, HStack} from '@chakra-ui/react';
 
 export function WHeader() {
 
     return (
     <Box bg='#071C42' w='100%' p={2} color='white'>
         <Breadcrumb fontWeight='medium' fontSize='sm'>
-            <Image src='/logo.png' alt='logo' boxSize='24px' />
+            {/* <Image src='logo.jpg' alt='logo' boxSize='50px' />
             <BreadcrumbItem>
-                <BreadcrumbLink href='/'>Home</BreadcrumbLink>
+                <Text fontSize="2xl">Discoveri</Text>
+            </BreadcrumbItem> */}
+            
+            <BreadcrumbItem>
+                <BreadcrumbLink href='/'>
+                    <HStack>
+                        <Image src='logo.jpg' alt='logo' boxSize='50px' />
+                        <Text fontSize="2xl">Discoveri</Text>
+                    </HStack>
+                </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbItem>
-                <BreadcrumbLink href='/aboutus'>About us</BreadcrumbLink>
+                <BreadcrumbLink href='/about'>About us</BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbItem>
                 <BreadcrumbLink href='/competitions'>Search competitions</BreadcrumbLink>
@@ -30,5 +39,5 @@ export function WHeader() {
 }
 export function WFooter() {
 
-    return (<h1 className="text-4xl">Footer</h1>)
+    return (<h1 className="text-4xl">Discoveri</h1>)
 }
