@@ -4,7 +4,7 @@ import {WHeader, WFooter} from '../components/wSections'
 import '../components/hero'
 import React from 'react'
 
-builder.init("4e2fd74e646e4748b901efc919c33c72")
+builder.init("ce66862eed914e0eb93f8fd47f834273")
 // You control this page and how and where Builder renders
 // https://www.builder.io/c/docs/integrating-builder-pages
 export default function Home({ builderJson }) {
