@@ -10,11 +10,11 @@ builder.init("4e2fd74e646e4748b901efc919c33c72")
 export default function Home({ builderJson }) {
   return (
     <ChakraProvider>
-    <WHeader />
-      {/* Render your Builder.io content https://www.builder.io/c/docs/quickstart */}
-      <main className="min-h-[70vh]">
-        <BuilderComponent model="page" content={builderJson} />
-      </main>
+      <WHeader />
+        {/* Render your Builder.io content https://www.builder.io/c/docs/quickstart */}
+        <main className="min-h-[70vh]">
+          <BuilderComponent model="page" content={builderJson} />
+        </main>
       <WFooter />
     </ChakraProvider>
   )
