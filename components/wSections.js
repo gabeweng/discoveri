@@ -25,14 +25,9 @@ export function WHeader() {
                 <BreadcrumbLink href='/competitions'>Search competitions</BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbItem>
-                <BreadcrumbLink href='/pg_components'>Components</BreadcrumbLink>
+                <BreadcrumbLink href='/pg_components'>Your Profile</BreadcrumbLink>
             </BreadcrumbItem>
-            <BreadcrumbItem>
-                <BreadcrumbLink href='/pg_usecases'>Use Cases</BreadcrumbLink>
-            </BreadcrumbItem>
-            <BreadcrumbItem>
-                <BreadcrumbLink href='/pg_databases'>Databases</BreadcrumbLink>
-            </BreadcrumbItem>
+            
         </Breadcrumb>
     </Box>
     )
