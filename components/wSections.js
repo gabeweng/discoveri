@@ -4,7 +4,7 @@ export function WHeader() {
 
     return (
     <Box bg='#071C42' w='100%' p={2} color='white'>
-        <Breadcrumb fontWeight='medium' fontSize='sm'>
+        <Breadcrumb fontWeight='medium' fontSize='sm' fontFamily={"Poppins, sans-serif"} >
             {/* <Image src='logo.jpg' alt='logo' boxSize='50px' />
             <BreadcrumbItem>
                 <Text fontSize="2xl">Discoveri</Text>
@@ -14,7 +14,7 @@ export function WHeader() {
                 <BreadcrumbLink href='/'>
                     <HStack>
                         <Image src='logo.jpg' alt='logo' boxSize='50px' />
-                        <Text fontSize="2xl">Discoveri</Text>
+                        <Text fontSize="2xl" fontWeight={"bold"}>Discoveri</Text>
                     </HStack>
                 </BreadcrumbLink>
             </BreadcrumbItem>

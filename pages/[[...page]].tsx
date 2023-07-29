@@ -15,6 +15,7 @@ export default function Home({ builderJson }) {
         <main className="min-h-[70vh]">
           <BuilderComponent model="page" content={builderJson} />
         </main>
+        
       <WFooter />
     </ChakraProvider>
   )
