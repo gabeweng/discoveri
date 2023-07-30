@@ -16,7 +16,7 @@ export default function Home({ builderJson }) {
           <BuilderComponent model="page" content={builderJson} />
         </main>
         
-      <WFooter />
+      {/* <WFooter /> */}
     </ChakraProvider>
   )
 }
