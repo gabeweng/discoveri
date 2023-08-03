@@ -25,7 +25,7 @@ export function WHeader() {
                 <BreadcrumbLink href='/competitions'>Search competitions</BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbItem>
-                <BreadcrumbLink href='/pg_components'>Your Profile</BreadcrumbLink>
+                <BreadcrumbLink href='/my-profile'>Your Profile</BreadcrumbLink>
             </BreadcrumbItem>
             
         </Breadcrumb>
