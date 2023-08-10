@@ -1,10 +1,7 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js",
-  "/users/[user]": "pages/users/[user].js",
-  "/api/search": "pages/api/search.js",
-  "/api/user": "pages/api/user.js",
-  "/[[...page]]": "pages/[[...page]].js",
-  "/_document": "pages/_document.js"
+  "/_document": "pages/_document.js",
+  "/test": "pages/test.js",
+  "/[[...page]]": "pages/[[...page]].js"
 }
