@@ -1,24 +1,11 @@
-import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react'
+import { Card, CardHeader, CardBody, CardFooter, Flex, Heading, Text} from '@chakra-ui/react'
 
 function CompCard(props) {
     return (
         <Card maxW='md'>
         <CardHeader>
             <Flex spacing='4'>
-            <Flex flex='1' gap='4' alignItems='center' flexWrap='wrap'>
-                <Avatar name='Segun Adebayo' src='https://bit.ly/sage-adebayo' />
-
-                <Box>
-                <Heading size='sm'>Segun Adebayo</Heading>
-                <Text>Creator, Chakra UI</Text>
-                </Box>
-            </Flex>
-            <IconButton
-                variant='ghost'
-                colorScheme='gray'
-                aria-label='See menu'
-                icon={<BsThreeDotsVertical />}
-            />
+            <Heading size='md'>props.info.name</Heading>
             </Flex>
         </CardHeader>
         <CardBody>
