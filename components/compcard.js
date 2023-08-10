@@ -5,14 +5,12 @@ function CompCard(props) {
         <Card maxW='md'>
         <CardHeader>
             <Flex spacing='4'>
-            <Heading size='md'>props.info.name</Heading>
+            <Heading size='md'>{props.info.name}</Heading>
             </Flex>
         </CardHeader>
         <CardBody>
             <Text>
-            With Chakra UI, I wanted to sync the speed of development with the speed
-            of design. I wanted the developer to be just as excited as the designer to
-            create a screen.
+            {props.info.description}
             </Text>
         </CardBody>
         <Image
