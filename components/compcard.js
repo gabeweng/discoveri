@@ -30,13 +30,13 @@ export default function(props) {
             },
             }}
         >
-            <Button flex='1' variant='ghost' >
+            <Button flex='1' variant='solid' >
             Like
             </Button>
-            <Button flex='1' variant='ghost' >
+            <Button flex='1' variant='solid' >
             Comment
             </Button>
-            <Button flex='1' variant='ghost' >
+            <Button flex='1' variant='solid' >
             Share
             </Button>
         </CardFooter>
