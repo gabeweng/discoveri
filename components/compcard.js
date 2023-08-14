@@ -26,8 +26,8 @@ export default function(props) {
             <Text>
             {props.info.description}
             </Text>
+            <Tags/>
         </CardBody>
-    
         <CardFooter
             justify='space-between'
             flexWrap='wrap'
