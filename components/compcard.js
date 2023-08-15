@@ -26,7 +26,7 @@ export default function(props) {
             <Text>
             {props.info.description}
             </Text>
-            <Tags/>
+            <Tags info={props.info} />
         </CardBody>
         <CardFooter
             justify='space-between'
