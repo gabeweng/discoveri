@@ -1,6 +1,6 @@
 import { Card, CardHeader, CardBody, CardFooter, Flex, Heading, Text, Image, Button, Tag} from '@chakra-ui/react'
 
-import { BiLike, BiChat, BiShare} from '@chakra-ui/icons';
+import { } from '@chakra-ui/icons';
 
 function Tags(props) {
     return (
